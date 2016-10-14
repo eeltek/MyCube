@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Rubik's Cube</title>
+
+
+<link rel="stylesheet" href="myStyles.css"/>
+<script src="jquery-3.1.0.js"></script>    
+<script id="superCube" type="text/xmldata">
+	<superCube></superCube>
+</script>
+</head>
+<body>
+	<h1 style="text-align:center;">Rubik's Cube</h1>
+	<div id="bigDiv">
+		<div class="smallDiv">
+			<input/ class="actBut2" type="button" value="FRONT(X)"	id="xfront"	>
+			<input/ class="actBut2" type="button" value="LEFT(X)"	id="xleft"	>
+			<input/ class="actBut2" type="button" value="DOWN(X)"	id="xdown"	>		
+			<input/ class="actBut2" type="button" value="BACK(X)"	id="xback"	>
+			<input/ class="actBut2" type="button" value="RIGHT(X)"	id="xright"	>
+			<input/ class="actBut2" type="button" value="UP(X)"		id="xup"		>
+		</div>
+		<div class="smallDiv">
+			<input class="actBut" type="button" value="FRONT"	id="front"	></input>
+			<input class="actBut" type="button" value="LEFT"	id="left"	></input>
+			<input class="actBut" type="button" value="DOWN"	id="down"	></input>			
+			<input class="actBut" type="button" value="BACK"	id="back"	></input>
+			<input class="actBut" type="button" value="RIGHT"	id="right"	></input>
+			<input class="actBut" type="button" value="UP"		id="up"		></input>
+		</div>
+		<div class="smallDiv">
+			<input class="ctlBut" type="button" value="rotCW"	id="rotCW"></input>
+			<input class="ctlBut" type="button" value="UNDO"	id="UNDO"></input>
+			<input class="ctlBut" type="button" value="rstGRID"	id="rstGRID"></input>
+			<input class="ctlBut" type="button" value="rotCCW"	id="rotCCW"></input>
+			<input class="ctlBut" type="button" value="REDO"	id="REDO"></input>
+			<input class="ctlBut" type="button" value="rstCUBE"	id="rstCUBE"></input>
+		</div>
+		<div class="smallDiv">
+			<input class="clrBut" type="button"	id="red"	 value="RED"	style="background-color:red" ></input>
+			<input class="clrBut" type="button"	id="green"	 value="GREEN"	style="background-color:green" ></input>
+			<input class="clrBut" type="button"	id="yellow"	value="YELLOW"	style="background-color:yellow" ></input>
+			<input class="clrBut" type="button"	id="orange"	 value="ORANGE"	style="background-color:orange" ></input>
+			<input class="clrBut" type="button"	id="blue"	 value="BLUE"	style="background-color:blue" ></input>			
+			<input class="clrBut" type="button"	id="white"	 value="WHITE"	style="background-color:white" ></input>
+		
+			
+		</div>
+		<div class="smallDiv">
+			<input class="dBugBut" type="button" value="clrTxt"		id="clrTxt"></input>
+			<input class="dBugBut" type="button" value="clrGRID"	id="clrGRID"></input>
+			<input class="dBugBut" type="button" value="clrTxt2"	id="clrTxt2"></input>
+			<input class="dBugBut" type="button" value="clrTxt3"	id="clrTxt3"></input>
+			<input class="dBugBut" type="button" value="clrTxt4"	id="clrTxt4"></input>
+			<input class="dBugBut" type="button" value="clrTxt5"	id="clrTxt5"></input>
+		</div>
+
+	</div>
+	<div id="biggerDiv">
+		
+		<div id="smallerDiv2">
+		<canvas id="myCanvas"></canvas>
+		</div>
+		<div id="smallerDiv3">
+			<textarea id="txtArea">
+				TEXT
+			</textarea>
+		</div>
+		<div id="smallerDiv">
+			<script>
+				$( document ).ready(function() {
+					console.log( "document loaded" );
+				});
+			
+				$( window ).load(function() {
+					console.log( "window loaded" );
+				});
+			</script>
+			<script src="grid.js"></script>	
+			<script src="rotate1cube.js"></script> 
+		</div>
+	</div>
+	
+	</body>
+</html>

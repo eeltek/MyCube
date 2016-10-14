@@ -1,0 +1,124 @@
+body{
+	width:1200;
+	height:775px;
+background-color: lightgreen;
+	border-width:5px;
+	border-color:blue;
+	border-style:double;
+	
+}
+#bigDiv{
+	width:1190px;
+	height:100px;
+	border-width:5px;
+	border-color:green;
+	border-style:double;
+	background-color: powderblue;
+	column-count:5;
+}
+.smallDivx{
+	width:200px;
+	height:80px;
+	border-width:5px;
+	border-color:brown;
+	border-style:double;
+	column-gap: 5px;
+	column-count:2;
+	
+}
+.smallDiv{
+	width:200px;
+	height:80px;
+	border-width:5px;
+	border-color:brown;
+	border-style:double;
+	column-gap: 5px;
+	column-count:2;
+	
+}
+#biggerDiv{
+	width:1190px;
+	height:595px;
+	border-width:5px;
+	border-color:green;
+	border-style:double;
+	background-color: lightgrey;
+	column-count:2;
+}
+#smallerDiv{
+	width:635x;
+	height:585px;
+	border-width:5px;
+	border-color:lightbrown;
+	border-style:double;
+	
+}
+#smallerDiv2{
+	width:585px;
+	height:275px;
+	border-width:5px;
+	border-color:lightbrown;
+	border-style:double;
+	
+}
+#smallerDiv3{
+	width:585px;
+	height:300px;
+	border-width:5px;
+	border-color:lightbrown;
+	border-style:double;
+	
+}
+#txtArea{
+	width:575px;
+	height:280px;
+	border-width:5px;
+	border-color:lightgrey;
+	border-style:double;
+}
+#myCanvas{
+	width:575px;
+	height:300px;
+	border-width:5px;
+	border-color:lightblue;
+	border-style:double;
+}
+
+
+.clrBut{
+	width:90px;
+	height:25px;
+}
+.ctlBut{
+	width:90px;
+	height:25px;
+}
+.actBut{
+	width:90px;
+	height:25px;
+}
+.actBut2{
+	width:90px;
+	height:25px;
+}
+.dBugBut{
+	width:90px;
+	height:25px;
+}
+
+.cell{
+    border-color:black;
+    border-style:double;
+    background:silver;
+    display:table-cell;
+    text-align:center;
+   border-width:2px;
+}
+.bigCell{
+    border-color:darkgrey;
+    border-style:double;
+    background:black;
+    display:table-cell;
+    text-align:center;
+  border-width:5px;
+}
